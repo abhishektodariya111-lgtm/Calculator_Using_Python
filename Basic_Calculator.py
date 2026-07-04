@@ -43,9 +43,9 @@ def main():
     while True:
         show_menu()
 
-        choice = input("What You Want To Calculate , Enter Your Choice: ")
+        choice = int(input("What You Want To Calculate , Enter Your Choice: "))
 
-        if choice == "1":
+        if choice == 1:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
             answer = add(num1, num2)
@@ -53,7 +53,7 @@ def main():
             print("Answer =", answer)
 
 
-        elif choice == "2":
+        elif choice == 2:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
             answer = subtract(num1, num2)
@@ -61,7 +61,7 @@ def main():
             print("Answer =", answer)
 
 
-        elif choice == "3":
+        elif choice == 3:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
 
@@ -71,7 +71,7 @@ def main():
 
   
 
-        elif choice == "4":
+        elif choice == 4:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
 
@@ -80,7 +80,7 @@ def main():
             print("Answer =", answer)
 
 
-        elif choice == "5":
+        elif choice == 5:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
 
@@ -89,7 +89,7 @@ def main():
             print("Answer =", answer)
 
 
-        elif choice == "6":
+        elif choice == 6:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
 
@@ -99,7 +99,7 @@ def main():
 
     
 
-        elif choice == "7":
+        elif choice == 7:
             exit
     
         else :
